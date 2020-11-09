@@ -48,7 +48,7 @@ java -jar target/my-project-1.0.0-SNAPSHOT-jar-with-dependencies.jar
 Should result with the following message:
 
 ```
-CloudAcademy DevOps 2020!!
+CloudAcademy DevOps 2020!! Answer: 42.0
 ```
 
 :metal:
