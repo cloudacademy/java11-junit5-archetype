@@ -1,7 +1,7 @@
 # Maven Quickstart Archetype - Java 11 + JUnit5
 
 ## Summary
-The project is a Maven archetype for Java 11 and JUnit5
+Used to provide a Maven archetype for Java 11 and JUnit5. You can use this to quickly generate new Java 11 and JUnit 5 TDD project layouts.
 
 ## Prerequisites
 * JDK 11
@@ -29,3 +29,26 @@ mvn archetype:generate \
  -Dversion=1.0.0-SNAPSHOT \
  -DinteractiveMode=false
 ```
+
+## Build and Run New Java Project
+
+### Step 1: Build, Test, and Package Executable Jar
+
+```bash
+cd my-project
+mvn clean package
+```
+
+### Step 2: Run
+
+```bash
+java -jar target/my-project-1.0.0-SNAPSHOT-jar-with-dependencies.jar
+```
+
+Should result with the following message:
+
+```
+CloudAcademy DevOps 2020!!
+```
+
+:metal:
