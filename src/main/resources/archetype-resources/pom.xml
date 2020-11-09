@@ -9,26 +9,6 @@
   <version>${version}</version>
   <packaging>jar</packaging>
 
-  <name>${project.artifactId}</name>
-  <description>${description}</description>
-  <organization>
-    <name>${org}</name>
-    <url>${orgUrl}</url>
-  </organization>
-
-  <developers>
-    <developer>
-      <name>${devName}</name>
-      <email>${devEmail}</email>
-      <url>${devUrl}</url>
-      <organization>${devOrg}</organization>
-      <organizationUrl>${devOrgUrl}</organizationUrl>
-      <roles>
-        <role>${devRole}</role>
-      </roles>
-    </developer>
-  </developers>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
