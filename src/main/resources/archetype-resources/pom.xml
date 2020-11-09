@@ -20,7 +20,7 @@
     <developer>
       <name>${devName}</name>
       <email>${devEmail}</email>
-      <url>${${devUrl}</url>
+      <url>${devUrl}</url>
       <organization>${devOrg}</organization>
       <organizationUrl>${devOrgUrl}</organizationUrl>
       <roles>

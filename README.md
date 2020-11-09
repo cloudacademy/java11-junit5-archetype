@@ -26,7 +26,7 @@ mvn archetype:generate \
  -DarchetypeVersion=1.0.0-SNAPSHOT \
  -DgroupId=com.example \
  -DartifactId=my-project \
- -Ddescription="CloudAcademy DevOps sample App - does amazing things!!" \
+ -Ddescription="Sample App" \
  -Dorg=CloudAcademy \
  -DorgUrl=cloudacademy.com \
  -DdevName="Jeremy Cook" \
