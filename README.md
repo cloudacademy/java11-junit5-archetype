@@ -26,5 +26,14 @@ mvn archetype:generate \
  -DarchetypeVersion=1.0.0-SNAPSHOT \
  -DgroupId=com.example \
  -DartifactId=my-project \
+ -Ddescription="CloudAcademy DevOps sample App - does amazing things!!" \
+ -Dorg=CloudAcademy \
+ -DorgUrl=cloudacademy.com \
+ -DdevName="Jeremy Cook" \
+ -DdevEmail=jeremy.cook@cloudacademy.com \
+ -DdevUrl=https://www.linkedin.com/in/jeremycook123/ \
+ -DdevOrg=CloudAcademy \
+ -DdevOrgUrl=https://cloudacademy.com \
+ -DdevRole="Lead Content Architect" \
  -DinteractiveMode=false
 ```
