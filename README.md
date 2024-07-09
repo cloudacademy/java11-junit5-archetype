@@ -1,3 +1,6 @@
+![Build Status](https://github.com/cloudacademy/java11-junit5-archetype/actions/workflows/release.yml/badge.svg) 
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cloudacademy/java11-junit5-archetype)
+
 # Maven Quickstart Archetype - Java 11 + JUnit5
 
 ## Summary
@@ -19,7 +22,18 @@ mvn clean install
 
 ## Maven Create/Generate New Java Project
 
+The Maven archetype can now be used to setup a new Maven Java project configured for JDK 11 and JUnit 5.
+
+First, navigate into a directory where your Java project/s are to be located:
+
 ```bash
+mkdir -p ~/java-maven-projects
+cd ~/java-maven-projects
+```
+
+Execute the following Maven `archetyp:generate` command to bootstrap your new Java project configured for JDK 11 and JUnit 5:
+
+```
 mvn archetype:generate \
  -DarchetypeGroupId=com.cloudacademy.devops \
  -DarchetypeArtifactId=java11-junit5-archetype \
