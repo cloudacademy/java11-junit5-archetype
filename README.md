@@ -3,6 +3,9 @@
 
 # Maven Quickstart Archetype - Java 11 + JUnit5
 
+**Note**: The following repo contains a Java 21 + JUnit5 Maven archetype
+- https://github.com/cloudacademy/java21-junit5-archetype
+
 ## Summary
 Used to provide a Maven archetype for Java 11 and JUnit5. You can use this to quickly generate new Java 11 and JUnit 5 TDD project layouts.
 
